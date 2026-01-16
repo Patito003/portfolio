@@ -1,39 +1,26 @@
 <script setup lang="ts">
-// Aqui você vai adicionar a lógica depois
-const nome = "Paulo Vitor Martins de Castro";
-const titulo = "Desenvolvedor Full Stack";
+import TopBar from "./components/TopBar.vue";
+import HomeSection from "./components/HomeSection.vue";
+import FloatingNav from "./components/FloatingBarNav.vue";
 </script>
 
 <template>
-  <div class="container">
-    <header>
-      <h1>{{ nome }}</h1>
-      <h2>{{ titulo }}</h2>
-      <p class="status">🚧 Site em construção (Mas o código já está rodando!)</p>
-    </header>
-
-    <main>
-      <p class="intro">
-        Com 3 anos de experiência, ajudo empresas a criar soluções web robustas e 
-        automatizar processos manuais com JavaScript.
-      </p>
-      
-      <div class="links">
-        <a href="https://www.linkedin.com/in/paulovitormartinsdecastro/" target="_blank" class="btn">LinkedIn</a>
-        <a href="https://github.com/Patito003/" target="_blank" class="btn">GitHub</a>
-      </div>
-    </main>
-
-    <footer>
-      <p>Feito com Vue 3 + TypeScript</p>
-    </footer>
-  </div>
+  <main>
+    <div
+      class="bg-white dark:bg-gray-900 min-h-screen text-gray-800 dark:text-gray-200"
+    >
+      <TopBar />
+      <main>
+        <HomeSection />
+      </main>
+      <FloatingNav />
+    </div>
+  </main>
 </template>
 
 <style scoped>
-/* Um estilo básico "Dark Mode" para ficar bonito */
 .container {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
   background-color: #1a1a1a;
   color: #ffffff;
