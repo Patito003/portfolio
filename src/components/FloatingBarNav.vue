@@ -6,8 +6,10 @@ const { t } = useI18n();
 
 const links = [
   { key: "nav.home", href: "#home" },
-  { key: "nav.about", href: "#about" }, // Vamos criar essas seções depois
+  { key: "nav.about", href: "#about" },
+  { key: "nav.skills", href: "#skills" },
   { key: "nav.projects", href: "#projects" },
+  { key: "nav.contact", href: "#contact" },
 ];
 </script>
 
@@ -20,7 +22,7 @@ const links = [
         v-for="link in links"
         :key="link.key"
         :href="link.href"
-        class="px-5 py-3 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-full hover:bg-purple-100 dark:hover:bg-purple-900/30 hover:text-purple-600 transition-all"
+        class="px-5 py-3 text-sm font-medium text-white dark:text-gray-300 rounded-full hover:bg-green-100 dark:hover:bg-emerald-950/60 hover:text-primary transition-all"
       >
         {{ t(link.key) }}
       </a>
