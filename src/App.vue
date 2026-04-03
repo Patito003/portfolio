@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import TopBar from "./components/TopBar.vue";
 import HomeSection from "./components/HomeSection.vue";
+import AboutSection from "./components/AboutSection.vue";
 import FloatingNav from "./components/FloatingBarNav.vue";
 </script>
 
@@ -12,6 +13,7 @@ import FloatingNav from "./components/FloatingBarNav.vue";
       <TopBar />
       <main>
         <HomeSection />
+        <AboutSection />
       </main>
       <FloatingNav />
     </div>

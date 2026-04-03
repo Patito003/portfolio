@@ -23,7 +23,7 @@ const { t } = useI18n();
     <img
       :src="fotoPerfil"
       alt="Paulo Vitor"
-      class="w-32 h-32 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/20 shadow-xl"
+      class="w-32 h-32 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/20 shadow-xl mb-5"
     />
   </div>
 </template>

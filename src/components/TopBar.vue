@@ -8,7 +8,7 @@ const { t } = useI18n();
   <header
     class="absolute top-0 left-0 w-full flex justify-between items-center py-6 px-6 md:px-12 z-40"
   >
-    <div class="text-3xl font-bold text-primary cursor-pointer">PV.</div>
+    <div class="text-3xl font-bold text-primary cursor-pointer">{{ t("brand") }}</div>
     <p class="text-primary status">🚧 Site em construção (Mas o código já está rodando!)</p>
     <a
       href="mailto:seuemail@exemplo.com"

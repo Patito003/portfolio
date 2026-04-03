@@ -2,6 +2,7 @@ import { createI18n } from "vue-i18n";
 
 const messages = {
   pt: {
+    brand: "PV.",
     nav: {
       home: "Início",
       about: "Sobre",
@@ -13,11 +14,14 @@ const messages = {
     home: {
       greeting: "Olá, eu sou o Paulo Vitor 👋",
       role: "Desenvolvedor Fullstack",
-      description:
-        "Estudante de Ciência da Computação focado em automação, eficiência e ecossistema JavaScript/TypeScript.",
     },
+    about: {
+      title: "Sobre Mim",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda at omnis. Voluptatem cum, facere dicta impedit provident sapiente nostrum? Perspiciatis debitis provident fugit accusantium cupiditate dolore numquam nihil repudiandae. lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda at omnis. Voluptatem cum, facere dicta impedit provident sapiente nostrum? Perspiciatis debitis provident fugit accusantium cupiditate dolore numquam nihil repudiandae."
+    }
   },
   en: {
+    brand: "PV.",
     nav: {
       home: "Home",
       about: "About",
@@ -25,6 +29,10 @@ const messages = {
       projects: "Projects",
       contact: "Contact",
       sayHello: "Say Hello",
+    },
+    home: {
+      greeting: "Hello, I'm Paulo Vitor 👋",
+      role: "Fullstack Developer",
     },
   },
 };
